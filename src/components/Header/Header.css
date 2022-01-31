@@ -1,0 +1,22 @@
+header {
+    /* position: relative; */
+    height: 950px;
+    min-height: 600px;
+    width: 100%;
+    background: #161415 url(../../../public/images/header-background.jpg) no-repeat top center;
+    background-size: cover !important;
+     -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
+ 
+ /* vertically center banner section */
+ header:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+ }
+
+
+ 

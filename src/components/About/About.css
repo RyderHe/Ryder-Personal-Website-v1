@@ -9,7 +9,7 @@
     overflow: hidden;
  }
  
- #about a, #about a:visited  { color: #fff; }
+ /* #about a, #about a:visited  { color: #fff; }
  #about a:hover, #about a:focus { color: #11ABB0; }
  
  #about h2 {
@@ -20,14 +20,9 @@
  #about p {
     line-height: 30px;
     color: #7A7A7A;
- }
- #about .profile-pic {
-    position: relative;
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
- }
- #about .contact-details { width: 41.66667%; }
+ }*/
+
+ /*#about .contact-details { width: 41.66667%; }
  #about .download {
     width: 58.33333%;
     padding-top: 6px;
@@ -45,4 +40,163 @@
     margin-right: 15px;
     font-size: 20px;
  }
- 
+  */
+
+/* general grid layout*/
+.about_container {
+   display: grid;
+   height: 45vh;
+   /* grid-template-columns: repeat(4, 1fr);
+    */
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   grid-template-rows: 50% 50%;
+   /* background: white; */
+   grid-gap: 0.2rem;
+}
+
+.about__avatar {
+   grid-column: 2/3;
+   grid-row: 1/2;
+   /* background: #a7ffeb; */
+}
+
+.about__about-me {
+   grid-column: 3/5;
+   grid-row: 1/2;
+   /* background: #84ffff; */
+   padding-left: 1em;
+}
+
+.about__contact-me {
+   grid-column: 3/4;
+   grid-row: 2/3;
+   /* background: #18ffff; */
+   padding-left: 1em;
+}
+
+.about__download-resume {
+   grid-column: 4/5;
+   grid-row: 2/3;
+   /* background-color: #1de9b6; */
+   /* grid-area: download-resume; */
+   /* padding-left: 55px; */
+}
+
+/* avatar */
+.about__avatar .about__avatar___img {
+   position: relative;
+   top: 10%;
+   left: 40%;
+
+   width: 7.5em;
+   height: 7.5em;
+   border-radius: 100%;
+}
+
+/* about-me */
+.about__about-me .about__about-me___title {
+   font-family: 'Libre Baskerville', serif;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 25px;
+   font-weight: 800;
+
+   color: #fff;
+   
+   position: relative;
+   top: 10%;
+
+   margin-bottom: 0.19em;
+   margin-top: 0.19em;
+}
+
+.about__about-me .about__about-me___p{
+   font-family: 'Libre Baskerville', serif;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+
+   color: #7A7A7A;
+
+   position: relative;
+   top: 20%;
+
+   margin-bottom: 0.19em;
+   margin-top: 0.19em;
+}
+/* contact-me */
+.about__contact-me .about__contact-me___title {
+   font-family: 'Libre Baskerville', serif;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 25px;
+   font-weight: 800;
+
+   color: #fff;
+   position: relative;
+
+
+   position: relative;
+   top: 10%;
+
+   margin-bottom: 0.19em;
+   margin-top: 0.19em;
+}
+
+.about__contact-me .about__contact-me___ul {
+
+   font-family: 'Libre Baskerville', serif;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+
+   line-height: 30px;
+   color: #7A7A7A;
+
+   list-style-type:none;
+   list-style-position:inside;
+
+   position: relative;
+   top: 20%;
+
+   margin-bottom: 0.19em;
+   margin-top: 0.19em;
+   
+}
+
+/* resume-download*/
+.about__download-resume .about__download-resume___button{
+   background-color: #7A7A7A;
+   color: #ffffff;
+   text-align: center;
+   text-decoration: none;
+   padding: 1em 1.5em;
+   border-radius: 3px;
+   position: relative;
+   top: 25%;
+   left: 10%;
+}
+.about__download-resume .about__download-resume___button i{
+   font-size: 20px;
+}
+
+
+.about__download-resume .about__download-resume___button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+
+
+
+
+/* @media only screen and (max-width:550px) {
+   .about_container {
+      display: grid;
+      height: 70vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas: 
+         "avatar"
+         "about-me"
+         "contact-me" 
+         "download-resume";
+   }
+} */

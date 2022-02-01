@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 } */
+
+/* .App {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: ;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #313131;
+}

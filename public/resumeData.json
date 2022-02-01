@@ -9,10 +9,10 @@
       "email": "youremailhere@gmail.com",
       "phone": "555-555-5555",
       "address": {
-        "street": "(Your Street)",
+        "street": "",
         "city": "Toronto",
         "state": "ON",
-        "zip": "(Your Zip/Postal Code)"
+        "zip": ""
       },
       "website": "",
       "resumedownload": "",
@@ -38,9 +38,9 @@
       "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
       "education": [
         {
-          "school": "University?",
-          "degree": "Masters in Beer tasting",
-          "graduated": "April 2007",
+          "school": "University of Waterloo",
+          "degree": "Bachelor of Computer Science, Data Science",
+          "graduated": "December 2021",
           "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
         },
         {
@@ -52,9 +52,9 @@
       ],
       "work": [
         {
-          "company": "Awesome Design Studio",
-          "title": "Senior UX God ",
-          "years": "March 2010 - Present",
+          "company": "Canadian Imperial Bank of Commerce",
+          "title": "Web Developer ",
+          "years": "June 2021 - Present",
           "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
         },
         {

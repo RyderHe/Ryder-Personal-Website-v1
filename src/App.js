@@ -1,7 +1,10 @@
+
+
 import "./App.css";
 import { useState, useEffect } from "react";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
+import Resume from "./components/Resume/Resume";
 
 function App() {
   
@@ -9,13 +12,13 @@ function App() {
   // const [isLoading, setIsLoading] = useState(undefined);
   const [fetchSuccess, setFetchSuccess] = useState(undefined);
 
-  /**
-   * Fetch the my data from the "fake" API
-   * @param   {void}
-   * @return  {Promise}
-   */
   
   useEffect(() => {
+    /**
+    * Fetch the my data from the "fake" API, and update the states
+    * @param   {void}
+    * @return  {void}
+    */
     async function getResumeData() {
       try {
         // setIsLoading(true);
@@ -36,22 +39,25 @@ function App() {
     }
     console.log("useEffect")
     getResumeData();
-  }, [resumeData, fetchSuccess]);
+    // eslint-disable-next-line
+  }, [fetchSuccess]);
 
   if (fetchSuccess) {
     return (
       <div className="App">
         <Header mainData = { resumeData.main }/>
         <About></About>
+        <Resume></Resume>
+        {/* <header></header>
+        <section id="about"></section>
+        <section id="resume"></section>
+        <section id="portfolio"></section>
+        <footer></footer> */}
       </div>
     );
 
   } 
   return <h1>Loading</h1>
-  
-  
-
-  
 }
 
 export default App;

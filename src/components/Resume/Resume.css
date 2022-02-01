@@ -1,0 +1,117 @@
+/* ------------------------------------------------------------------ */
+/* d. Resume Section
+/* ------------------------------------------------------------------ */
+
+#resume {
+    /* background: white; */
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+}
+
+
+/* general grid layout*/
+.resume-theme_container {
+    display: grid;
+    grid-template-columns: 20% 20% 40% 20%;
+    grid-gap: 0.2rem;
+    padding-top: 0;
+
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.resume-theme__header {
+    grid-column: 2/3;
+    /* background: #ffa7d3; */
+ }
+
+.resume-theme__header___h1{
+    /* font: 18px/24px 'opensans-bold', sans-serif;
+     */
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;   
+    width:fit-content;
+
+    position: relative;
+    left: 50%;
+    top: 10%;
+}
+
+.resume-theme__entries {
+    grid-column: 3/4; 
+    /* background: #18ffff; */
+ }
+
+
+.resume_theme__entries___row {  
+    height: 200px;
+}
+
+.resume_theme__entries___row h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+
+    position: relative;
+    left: 3%;
+    top: 15%;  
+
+    margin-bottom: 8px;
+}
+
+.info {
+    /* font: 16px/24px 'librebaskerville-italic', serif; */
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    font-style: italic; /**/
+
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 18px;
+
+    position: relative;
+    left: 3%;
+    top: 10%;  
+}
+
+.info span {
+    margin-right: 5px;
+    margin-left: 5px;
+ }
+.date {
+    /* font: 15px/24px 'opensans-regular', sans-serif; */
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    
+    font-size: 15px;
+    /* font-weight: 800; */
+
+    margin-top: 6px;
+ }
+
+ .description {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    
+    line-height: 30px;
+    color: #767779;
+
+    position: relative;
+    left: 3%;
+    top: 10%;  
+ }
+

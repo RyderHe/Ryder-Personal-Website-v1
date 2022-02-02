@@ -4,8 +4,9 @@
 
 #resume {
     /* background: white; */
-    padding-top: 96px;
-    padding-bottom: 66px;
+    /* padding-top: 96px; */
+    /* padding-bottom: 66px; */
+    margin-top: 2em;
     overflow: hidden;
 }
 
@@ -17,8 +18,8 @@
     grid-gap: 0.2rem;
     padding-top: 0;
 
-    margin-bottom: 48px;
-    padding-bottom: 24px;
+    /* margin-bottom: 48px; */
+    /* padding-bottom: 24px; */
     border-bottom: 1px solid #E8E8E8;
 }
 
@@ -41,7 +42,7 @@
 
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;   
-    width:fit-content;
+    width: fit-content;
 
     position: relative;
     left: 50%;

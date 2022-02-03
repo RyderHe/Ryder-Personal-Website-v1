@@ -1,53 +1,16 @@
-/* ------------------------------------------------------------------ */
-/* c. About Section
-/* ------------------------------------------------------------------ */
-
 #about {
     background: #2B2B2B;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
- }
- 
- /* #about a, #about a:visited  { color: #fff; }
- #about a:hover, #about a:focus { color: #11ABB0; }
- 
- #about h2 {
-    font: 22px/30px 'opensans-bold', sans-serif;
-    color: #fff;
-    margin-bottom: 12px;
- }
- #about p {
-    line-height: 30px;
-    color: #7A7A7A;
- }*/
-
- /*#about .contact-details { width: 41.66667%; }
- #about .download {
-    width: 58.33333%;
-    padding-top: 6px;
- }
- #about .main-col { padding-right: 5%; }
- #about .download .button {
-    margin-top: 6px;
-    background: #444;
- }
- #about .download .button:hover {
-    background: #fff;
-    color: #2B2B2B;
- }
- #about .download .button i {
-    margin-right: 15px;
-    font-size: 20px;
- }
-  */
+}
 
 /* general grid layout*/
 .about_container {
    display: grid;
    height: 80vh;
 
-   grid-template-columns: 20% 20% 20% 20% 20%;
+   grid-template-columns: 20% 15% 20% 25% 20%;
    grid-template-rows: 50% 50%;
    /* background: white; */
    grid-gap: 0.2rem;
@@ -77,16 +40,13 @@
 .about__download-resume {
    grid-column: 4/5;
    grid-row: 2/3;
-   /* background-color: #1de9b6; */
-   /* grid-area: download-resume; */
-   /* padding-left: 55px; */
 }
 
 /* avatar */
 .about__avatar .about__avatar___img {
    position: relative;
    top: 10%;
-   left: 40%;
+   left: 10%;
 
    width: 7.5em;
    height: 7.5em;
@@ -123,6 +83,7 @@
 
    line-height: 2em;
 }
+
 /* contact-me */
 .about__contact-me .about__contact-me___title {
    font-family: 'Open Sans', sans-serif;
@@ -168,7 +129,7 @@
    padding: 1em 1.5em;
    border-radius: 3px;
    position: relative;
-   top: 25%;
+   top: 30%;
    left: 10%;
 }
 .about__download-resume .about__download-resume___button i{
@@ -181,19 +142,339 @@
    color: #2B2B2B;
 }
 
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
 
+   /* general grid layout*/
+   .about_container {
+      grid-template-columns: 12.5% 20% 25% 30% 12.5%;
+   }
 
+   .about__about-me {
+      padding-left: 0.7em;
+      /* margin: 2em; */
+   }
+   
+   .about__contact-me {
+      padding-left: 0.7em;
+   }
 
-/* @media only screen and (max-width:550px) {
+   /* avatar */
+   .about__avatar .about__avatar___img {
+      position: relative;
+      top: 10%;
+      left: 7%;
+   
+      width: 7em;
+      height: 7em;
+   }
+
+   /* about-me */
+   .about__about-me .about__about-me___title {
+      font-size: 20px;
+      
+      position: relative;
+      top: 10%;
+   }
+   
+   .about__about-me .about__about-me___p{
+      font-size: 14px;
+   }
+
+   /* contact-me */
+   .about__contact-me .about__contact-me___title {
+      font-size: 20px;
+   }
+
+   .about__contact-me .about__contact-me___ul {
+      font-size: 16px;
+
+      line-height: 30px;
+      color: #7A7A7A;
+
+      list-style-type:none;
+      list-style-position:inside;
+
+      position: relative;
+      top: 20%;
+
+      margin-bottom: 0.19em;
+      margin-top: 0.19em;
+      
+   }
+
+   /* resume-download*/
+   .about__download-resume .about__download-resume___button i{
+      font-size: 18px;
+   }
+ 
+}
+ 
+ /* screenwidth less than 900px
+ --------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+   
+   /* general grid layout*/
    .about_container {
       display: grid;
-      height: 70vh;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
-      grid-template-areas: 
-         "avatar"
-         "about-me"
-         "contact-me" 
-         "download-resume";
+      height: 80vh;
+
+      grid-template-columns: 10% 80% 10%;
+      grid-template-rows: 40% 30% 20%;
+      /* background: white; */
+      grid-gap: 0.2rem;
    }
-} */
+
+   .about__avatar {
+      /* grid-column: 2/3;
+      grid-row: 1/2;
+      background: #a7ffeb; */
+      display: none;
+   }
+
+   .about__about-me {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      /* background: #84ffff; */
+      padding-left: 1em;
+      /* margin: 2em; */
+   }
+
+   .about__contact-me {
+      grid-column: 2/3;
+      grid-row: 2/3;
+      /* background: #18ffff; */
+      padding-left: 1em;
+   }
+
+   .about__download-resume {
+      grid-column: 2/3;
+      grid-row: 3/4;
+      /* text-align: center; */
+   }
+
+     /* about-me */
+     .about__about-me .about__about-me___title {
+      font-size: 20px;
+      
+      position: relative;
+      top: 10%;
+   }
+   
+   .about__about-me .about__about-me___p{
+      font-size: 14px;
+   }
+
+   /* contact-me */
+   .about__contact-me .about__contact-me___title {
+      font-size: 20px;
+   }
+
+   .about__contact-me .about__contact-me___ul {
+      font-size: 16px;
+
+      line-height: 30px;
+      color: #7A7A7A;
+
+      list-style-type:none;
+      list-style-position:inside;
+
+      position: relative;
+      top: 20%;
+
+      margin-bottom: 0.19em;
+      margin-top: 0.19em;
+      
+   }
+
+   /* resume-download*/
+   .about__download-resume .about__download-resume___button{
+      position: relative;
+      top: 40%;
+      left: 35%;
+   }
+   .about__download-resume .about__download-resume___button i{
+      font-size: 18px;
+   }
+
+}
+
+ /* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+   /* general grid layout*/
+   .about_container {
+      display: grid;
+      height: 80vh;
+
+      grid-template-columns: 10% 80% 10%;
+      grid-template-rows: 40% 30% 20%;
+      /* background: white; */
+      grid-gap: 0.2rem;
+   }
+
+   .about__avatar {
+      /* grid-column: 2/3;
+      grid-row: 1/2;
+      background: #a7ffeb; */
+      display: none;
+   }
+
+   .about__about-me {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      /* background: #84ffff; */
+      padding-left: 1em;
+      /* margin: 2em; */
+   }
+
+   .about__contact-me {
+      grid-column: 2/3;
+      grid-row: 2/3;
+      /* background: #18ffff; */
+      padding-left: 1em;
+   }
+
+   .about__download-resume {
+      grid-column: 2/3;
+      grid-row: 3/4;
+      /* text-align: center; */
+   }
+
+      /* about-me */
+      .about__about-me .about__about-me___title {
+      font-size: 20px;
+      
+      position: relative;
+      top: 10%;
+   }
+   
+   .about__about-me .about__about-me___p{
+      font-size: 14px;
+   }
+
+   /* contact-me */
+   .about__contact-me .about__contact-me___title {
+      font-size: 20px;
+   }
+
+   .about__contact-me .about__contact-me___ul {
+      font-size: 16px;
+
+      line-height: 30px;
+      color: #7A7A7A;
+
+      list-style-type:none;
+      list-style-position:inside;
+
+      position: relative;
+      top: 20%;
+
+      margin-bottom: 0.19em;
+      margin-top: 0.19em;
+      
+   }
+
+   /* resume-download*/
+   .about__download-resume .about__download-resume___button{
+      position: relative;
+      top: 40%;
+      left: 15%;
+   }
+   .about__download-resume .about__download-resume___button i{
+      font-size: 18px;
+   }
+}
+
+/* mobile narrow
+  -------------------------------------------------------------------------- */
+@media only screen and (max-width: 480px) {
+      /* general grid layout*/
+      .about_container {
+         display: grid;
+         height: 100vh;
+   
+         grid-template-columns: 10% 80% 10%;
+         grid-template-rows: 50% 25% 15%;
+         /* background: white; */
+         grid-gap: 0.2rem;
+      }
+   
+      .about__avatar {
+         /* grid-column: 2/3;
+         grid-row: 1/2;
+         background: #a7ffeb; */
+         display: none;
+      }
+   
+      .about__about-me {
+         grid-column: 2/3;
+         grid-row: 1/2;
+         /* background: #84ffff; */
+         padding-left: 1em;
+         /* margin: 2em; */
+      }
+   
+      .about__contact-me {
+         grid-column: 2/3;
+         grid-row: 2/3;
+         /* background: #18ffff; */
+         padding-left: 1em;
+      }
+   
+      .about__download-resume {
+         grid-column: 2/3;
+         grid-row: 3/4;
+         /* text-align: center; */
+      }
+   
+        /* about-me */
+        .about__about-me .about__about-me___title {
+         font-size: 20px;
+         
+         position: relative;
+         top: 5%;
+         margin-top: 0.1em;
+      }
+      
+      .about__about-me .about__about-me___p{
+         font-size: 14px;
+         margin-top: 0.1em;
+
+         position: relative;
+         top: 10%;
+      }
+   
+      /* contact-me */
+      .about__contact-me .about__contact-me___title {
+         font-size: 20px;
+         margin-top: 0.1em;
+
+         position: relative;
+         top: 5%;
+      }
+   
+      .about__contact-me .about__contact-me___ul {
+         font-size: 16px;
+   
+         line-height: 30px;
+   
+         position: relative;
+         top: 10%;
+   
+         margin-top: 0.1em;
+         
+      }
+   
+      /* resume-download*/
+      .about__download-resume .about__download-resume___button{
+         position: relative;
+         top: 40%;
+         left: 4%;
+      }
+      .about__download-resume .about__download-resume___button i{
+         font-size: 18px;
+      }
+}

@@ -9,8 +9,7 @@
 }
 
 /* nav-wrap */
-nav{
-  font-family: 'Libre Baskerville', serif;
+nav {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -18,12 +17,8 @@ nav{
   text-transform: uppercase;
   letter-spacing: 2.5px;
 
-  /* background-color: #333; */
-  /* background-color: red; */
-  /* margin: 0 auto; */
   width: 100%;
-  min-height: 48px;
-  /* width: auto; */
+  min-height: 3em;
   
   /* fix on the top of window*/
   position: fixed;
@@ -37,9 +32,6 @@ nav{
   text-align: center;
 }
 .opaque { background-color: #333; }
-
-/* hide toggle button */
-/* #nav-wrap > a.mobile-btn { display: none; } */
 
  /* Links */
 nav a {
@@ -60,4 +52,13 @@ nav a {
 /* active link */
 a.active {
    color: #F06000;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  nav {
+     font-size: 14px;
+     font-weight: 700;
+  }
+
 }

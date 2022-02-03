@@ -52,3 +52,53 @@
    /* border-color: #474647; */
    border-color: rgba(150, 150, 150, .1);
 }
+
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+
+  .banner-text h1 {
+     font-size: 80px;
+     font-weight: 700;
+     letter-spacing: -1px;
+
+     margin: 0 auto 0.6em auto;
+  }
+
+}
+
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+  .banner { 
+     margin-top: 10%;
+   }
+  .banner-text h1 {
+     /* font: 78px/1.1em 'opensans-bold', sans-serif; */
+     font-size: 70px;
+     font-weight: 700;
+     letter-spacing: -1px;      
+     /* padding-top: 5%; */
+     margin-top: 0.3em;
+
+  }
+
+  .banner-text h3 {
+     /* font: 17px/1.9em 'librebaskerville-regular', serif;
+      */
+     font-size: 17px;
+     font-weight: 400;
+     width: 80%;
+  }
+
+  .banner-text hr {
+     width: 65%;
+     margin: 0.75em auto;
+  }
+  /* nav-wrap */
+  /* #nav-wrap {
+     font: 11px 'opensans-bold', sans-serif;
+     letter-spacing: 1.5px;
+  } */
+}

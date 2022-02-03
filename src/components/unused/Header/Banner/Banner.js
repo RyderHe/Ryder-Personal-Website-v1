@@ -1,5 +1,5 @@
 import "./Banner.css";
-import SocialNetworksList from "../../SocialNetworksList/SocialNetworksList";
+import SocialNetworksList from "../../../SocialNetworksList/SocialNetworksList";
 
 const Banner = (props) => {
   const { name, address, occupation, description, socialNetworks } = props;

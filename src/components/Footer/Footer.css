@@ -1,38 +1,57 @@
 footer {
     /* margin-top: 3em; */
     /* margin-bottom: 3em; */
+    /* margin: 0;
+    padding: 0; */
     background-color: #303030;
     font-size: 14px;
+
     text-align: center;
+
     position: relative;
     height: 13em;
+
+    display: block;
+    /* overflow: hidden; */
  }
  
  /* footer a, footer a:visited { color: #525252; } */
  /* footer a:hover, footer a:focus { color: #fff; } */
  
- .footer_container {
-    display: block;
+ /* .footer_container {
+} */
+
+.footer__content {
+   /* line-height: 2em; */
+   /* position: relative;
+   top: 4em; */
+   background-color: yellow;
+   margin: 0;
+   display: block;
+   position: relative;
+
+   text-align: center;
+   /* width: 100%; */
  }
 
- .footer__content {
-    /* line-height: 2em; */
-    position: relative;
-    top: 4em;
- }
-
- .footer__content p {
+ footer p {
     color: #120F0F;
+    
+   /* color: white; */
 
-    font-family: 'Libre Baskerville', serif;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 15px;
 
-    margin: 3em;
+    /* position: relative; */
 
-    /* position: relative;
-    top: 70%; */
+
+    /* position: absolute; */
+    
+     /* display: inline; */
+    /* top: 40%; */
+    /* margin: 0 auto; */
+   
 
  }
 
@@ -80,8 +99,17 @@ footer {
 .social {
     /* margin: 24px 0; */ /*header has it, need take a look at it later*/
     padding: 0;
+    margin-top: 0 !important;
+    /* margin-bottom: 10px; */
+    padding-top: 2em !important;
+
     font-size: 30px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+
+    /* position: relative; 
+    top: 2em; */
+    /* text-align: center; */
+
  }
 
 .social li {

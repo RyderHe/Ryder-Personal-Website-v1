@@ -2,11 +2,13 @@
 
 import "./App.css";
 import { useState, useEffect } from "react";
-import Header from "./components/Header/Header";
-import About from "./components/About/About";
-import Resume from "./components/Resume/Resume";
-import Portfolio from "./components/Portfolio/Portfolio";
+import { Routes, Route } from "react-router-dom";
+
+import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Resume from "./pages/Resume/Resume";
 
 function App() {
   
@@ -46,17 +48,16 @@ function App() {
 
   if (fetchSuccess) {
     return (
+      // <Router>
       <div className="App">
-        <Header mainData = { resumeData.main }/>
-        <About></About>
-        <Resume></Resume>
-        <Portfolio />
-        <Footer />
-        {/* <header></header>
-        <section id="about"></section>
-        <section id="resume"></section>
-        <section id="portfolio"></section>
-        <footer></footer> */}
+        {/* <Header mainData = { resumeData.main }/> */}
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<><About/><Footer/></>}></Route>
+          <Route path="/resume" element={<><Resume/><Footer/></>}></Route>
+        </Routes>
+
       </div>
     );
 

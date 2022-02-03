@@ -1,0 +1,63 @@
+/******************** 
+  primary navigation
+*********************/
+ #nav-wrap ul, #nav-wrap li, #nav-wrap a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+/* nav-wrap */
+nav{
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+
+  /* background-color: #333; */
+  /* background-color: red; */
+  /* margin: 0 auto; */
+  width: 100%;
+  min-height: 48px;
+  /* width: auto; */
+  
+  /* fix on the top of window*/
+  position: fixed;
+  left: 0;
+  top: 0;
+  
+  /*cover all other contents*/
+  z-index: 100;
+  
+  /* center the links */
+  text-align: center;
+}
+.opaque { background-color: #333; }
+
+/* hide toggle button */
+/* #nav-wrap > a.mobile-btn { display: none; } */
+
+ /* Links */
+nav a {
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+   text-decoration: none;
+   /* text-align: left; */
+   color: #fff;
+   
+   -webkit-transition: color .2s ease-in-out;
+   -moz-transition: color .2s ease-in-out;
+   -o-transition: color .2s ease-in-out;
+   -ms-transition: color .2s ease-in-out;
+   transition: color .2s ease-in-out;
+}
+
+/* active link */
+a.active {
+   color: #F06000;
+}

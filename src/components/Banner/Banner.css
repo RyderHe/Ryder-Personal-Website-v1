@@ -2,7 +2,7 @@
   text banner section
 *********************/
 
-header .banner {
+.banner {
     display: inline-block;
     vertical-align: middle;
     margin: 0 auto;
@@ -11,30 +11,44 @@ header .banner {
     text-align: center;
 }
  
-header .banner-text { width: 100%; }
-header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+.banner-text { 
+   width: 100%; 
+}
+.banner-text h1 {
+   
+   font-size: 90px;
+   font-weight: 700;
    color: #fff;
+
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+
+   margin-top: 1em;
+   margin-bottom: 1em;
 }
 
-header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+.banner-text h3 {
+   font-size: 18px;
+   
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   
+   line-height: 2.5em;
+   
+   margin-top: 1em;
+   margin-bottom: 1em;
 }
 
-header .banner-text h3 span, header .banner-text h3 a {
+.banner-text h3 span, .banner-text h3 a {
    color: #fff;
 }
 
-header .banner-text hr {
+.banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
-   border-color: #2F2D2E;
+   /* border-color: #474647; */
    border-color: rgba(150, 150, 150, .1);
 }

@@ -11,7 +11,7 @@ const About = () => {
         <div className="about__about-me">
           <h2 className="about__about-me___title">About Me</h2>
         
-          <p className="about__about-me___p">Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.  </p>
+          <p className="about__about-me___p">I am currently working as a Web Developer at CIBC. I&apos;ve created full-stack projects with React, Node servers, and databases. I am passionate to code, learn, and improve. I look forward to future challenges and expanding my knowledge and skills. </p>
         </div> 
         <div className="about__contact-me">
           <h2 className="about__contact-me___title">Contact Details</h2>

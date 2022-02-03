@@ -10,7 +10,7 @@
       "phone": "555-555-5555",
       "address": {
         "street": "",
-        "city": "Toronto",
+        "city": "Burlington",
         "state": "ON",
         "zip": ""
       },
@@ -42,12 +42,6 @@
           "degree": "Bachelor of Computer Science, Data Science",
           "graduated": "December 2021",
           "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-        },
-        {
-          "school": "School #1 Maybe College?",
-          "degree": "What did you study 101",
-          "graduated": "March 2003",
-          "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
         }
       ],
       "work": [
@@ -55,12 +49,6 @@
           "company": "Canadian Imperial Bank of Commerce",
           "title": "Web Developer ",
           "years": "June 2021 - Present",
-          "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-        },
-        {
-          "company": "Super Cool Studio",
-          "title": "Junior bug fixer",
-          "years": "March 2007 - February 2010",
           "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
         }
       ],
@@ -98,46 +86,34 @@
     "portfolio": {
       "projects": [
         {
-          "title": "Canadian Wanderlust",
+          "title": "Movies App",
           "category": "My Travel Blog for my post-university travels",
-          "image": "canadian-wanderlust.jpg",
-          "url": "https://www.canadianwanderlust.com"
+          "image": "",
+          "url": ""
         },
         {
-          "title": "Fury Fighting Gear",
-          "category": "(offline now) A fighting gear company I started",
-          "image": "fury-fighting-gear.jpg",
-          "url": "http://www.timbakerdev.com"
+          "title": "Chat App",
+          "category": "A live chat app for foodies.",
+          "image": "",
+          "url": ""
         },
         {
-          "title": "Original Thai Food",
-          "category": "Website I built for a restaurant I like in Thailand",
-          "image": "original-thai-food.jpg",
-          "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+          "title": "Flappy Bird Clone Game",
+          "category": "Fly the 'spyderman' as far as you can!",
+          "image": "",
+          "url": ""
         },
         {
-          "title": "Resume Website",
-          "category": "A React based resume website template",
-          "image": "resume-website.jpg",
-          "url": "http://www.timbakerdev.com"
+          "title": "Operating System",
+          "category": "A simplified os kernal ",
+          "image": "",
+          "url": ""
         },
         {
           "title": "Smirkspace",
           "category": "(MVP Only) A React and Meteor based chat University project.",
           "image": "smirkspace.jpg",
           "url": "http://www.smirkspace.com"
-        }
-      ]
-    },
-    "testimonials": {
-      "testimonials": [
-        {
-          "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-          "user": "Kareem Abdul Jabbar"
-        },
-        {
-          "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-          "user": "Steve Wozniak... impersonator"
         }
       ]
     }

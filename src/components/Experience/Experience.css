@@ -1,8 +1,8 @@
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. Experience Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#experience {
     /* background: white; */
     /* padding-top: 96px; */
     /* padding-bottom: 66px; */
@@ -12,7 +12,7 @@
 
 
 /* general grid layout*/
-.resume-theme_container {
+.experience-theme_container {
     display: grid;
     grid-template-columns: 20% 20% 40% 20%;
     grid-gap: 0.2rem;
@@ -23,17 +23,13 @@
     border-bottom: 1px solid #E8E8E8;
 }
 
-.resume-theme__header {
+.experience-theme__header {
     grid-column: 2/3;
     /* background: #ffa7d3; */
  }
 
-.resume-theme__header___h1{
-    /* font: 18px/24px 'opensans-bold', sans-serif;
-     */
-    /* font-family: 'Open Sans', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif; */
-    font-family: 'Libre Baskerville', serif;
+.experience-theme__header___h1{
+
     font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
@@ -49,18 +45,17 @@
     top: 10%;
 }
 
-.resume-theme__entries {
+.experience-theme__entries {
     grid-column: 3/4; 
     /* background: #18ffff; */
  }
 
 
-.resume_theme__entries___row {  
+.experience_theme__entries___row {  
     height: 200px;
 }
 
-.resume_theme__entries___row h3 {
-    font-family: 'Libre Baskerville', serif;
+.experience_theme__entries___row h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     font-weight: 800;
@@ -73,8 +68,6 @@
 }
 
 .info {
-    /* font: 16px/24px 'librebaskerville-italic', serif; */
-    font-family: 'Libre Baskerville', serif;
     font-size: 16px;
     font-style: italic; /**/
 
@@ -92,8 +85,6 @@
     margin-left: 5px;
  }
 .date {
-    /* font: 15px/24px 'opensans-regular', sans-serif; */
-    font-family: 'Libre Baskerville', serif;
     font-family: 'Open Sans', sans-serif;
     
     font-size: 15px;
@@ -103,7 +94,6 @@
  }
 
  .description {
-    font-family: 'Libre Baskerville', serif;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 16px;

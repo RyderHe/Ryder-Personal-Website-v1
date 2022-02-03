@@ -53,9 +53,31 @@ function App() {
         {/* <Header mainData = { resumeData.main }/> */}
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<><About/><Footer/></>}></Route>
-          <Route path="/resume" element={<><Resume/><Footer/></>}></Route>
+          <Route 
+            path="/" 
+            element={<Home mainData = { resumeData.main } />}>
+          </Route>
+          <Route 
+            path="/about" 
+            element={
+              <>
+                <About 
+                  name = { resumeData.main.name }
+                  bio={ resumeData.main.bio } 
+                  address={ resumeData.main.address } 
+                  email={ resumeData.main.email } 
+                  image={ resumeData.main.image }
+                  resume={ resumeData.main.resumedownload }
+                />
+                <Footer/>
+              </>
+            }
+          >
+          </Route>
+          <Route 
+            path="/resume" 
+            element={<><Resume/><Footer/></>}>
+          </Route>
         </Routes>
 
       </div>

@@ -76,7 +76,19 @@ function App() {
           </Route>
           <Route 
             path="/resume" 
-            element={<><Resume/><Footer/></>}>
+            element={
+              <>
+                <Resume
+                  educationData={ resumeData.resume.education }
+                  workData={ resumeData.resume.work }
+                  projectsData={ resumeData.portfolio.projects}
+                />
+                <Footer 
+                  // educationData={ resumeData.education }
+                  // workData={ resumeData.work }
+                />
+              </>
+            }>
           </Route>
         </Routes>
 

@@ -183,3 +183,22 @@
     -moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
+
+
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+
+}
+
+ /* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {}
+
+ /* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {}
+
+/* mobile narrow
+  -------------------------------------------------------------------------- */
+@media only screen and (max-width: 480px) {}

@@ -116,7 +116,7 @@
           "url": "www.google.ca"
         },
         {
-          "title": " Ludum Dare Game Prediction Kaggle Challenge",
+          "title": "Ludum Dare Game Prediction Kaggle Challenge",
           "skills": ["Python", "TensorFlow"],
           "category": "Predicted with a categorization accuracy of 0.92+ that ranked top 50% among the class competition.",
           "image": "project.jpg",

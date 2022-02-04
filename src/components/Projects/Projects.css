@@ -112,9 +112,6 @@
     margin-top: -15px; */
  }
  
- /* .projects_item img {
-    vertical-align: bottom;
- } */
 
 
 .projects_item__overlay___wrapper h5 {
@@ -127,6 +124,12 @@
     margin-top: 1.2em;
     /* text-align:left; */
     
+}
+.projects_item__overlay___wrapper p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    color: #222;
 }
 .projects_item__overlay___wrapper .used-skills p {
     font-family: 'Open Sans', sans-serif;
@@ -188,12 +191,41 @@
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
+    .projects_item {
+        width: 14em;
+    }
+
+    .projects_container {
+        width:100%;
+    }
+
+    .projects_item__overlay___wrapper h5 {
+        font-size: 1.1em;
+    
+        margin: 0.25em;
+        margin-top: 1em;        
+    }
+
+    .projects_item__link-icon {
+        position: absolute;
+        top: 85%;
+        left: 45%;
+     }
+     
 
 }
 
  /* screenwidth less than 900px
 --------------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {}
+@media only screen and (max-width: 900px) {
+    .projects_item {
+        width: 14em;
+    }
+
+    .projects_container {
+        width:100%;
+    }
+}
 
  /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
@@ -201,4 +233,19 @@
 
 /* mobile narrow
   -------------------------------------------------------------------------- */
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .projects_item {
+        width: 11em;
+    }
+
+    .projects_item__overlay___wrapper h5 {
+        font-size: 1em;
+    
+        margin: 0.25em;
+        margin-top: 1em;        
+    }
+
+     .projects_item__overlay___wrapper  p {
+      display: none; 
+    }
+}

@@ -79,8 +79,7 @@ function App() {
             element={
               <>
                 <Resume
-                  educationData={ resumeData.resume.education }
-                  workData={ resumeData.resume.work }
+                  resumeData={ resumeData.resume}
                   projectsData={ resumeData.portfolio.projects}
                 />
                 <Footer 

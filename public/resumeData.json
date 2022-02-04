@@ -1,8 +1,8 @@
 {
     "main": {
       "name": "Ryder He",
-      "occupation": "Full Stack Developer",
-      "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+      "occupation": "Software Developer",
+      "description": "",
       "image": "profile_photo.jpg",
       "bio": "I am currently working as a Web Developer at CIBC. I am passionate to code, learn, and improve. As an explorer, I look forward to future challenges and expanding my knowledge🚀.",
       "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
@@ -37,29 +37,31 @@
     "resume": {
       "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
       "education": [
-        {
+        { 
+          "themetitle": "Education",
           "school": "University of Waterloo",
           "degree": "Bachelor of Computer Science, Data Science",
           "graduated": "December 2021",
-          "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+          "description": "It is a hard but unforgettable and worthwhile journey for me where I learnt not only programming and mathematics knowledge but also critical thinking, logical minds, and stress-resistant ability. Shout out to DC, DP, MC, and every goose blocking my way to the campus🤛 ."
         }
       ],
       "work": [
         {
+          "themetitle": "Work",
           "company": "Canadian Imperial Bank of Commerce",
           "title": "Web Developer ",
           "years": "June 2021 - Present",
-          "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+          "description": "I maintained several internal applications responsible for the communication between employess and frontline managers and developed new features using Typescript, React, Node.js, and Python etc."
         }
       ],
       "skills": [
         {
           "name": "Git",
-          "level": "60%"
+          "level": ""
         },
         {
-          "name": "Illustrator",
-          "level": "55%"
+          "name": "VueJs",
+          "level": ""
         },
         {
           "name": "ReactJs",
@@ -67,15 +69,15 @@
         },
         {
           "name": "CSS",
-          "level": "90%"
+          "level": ""
         },
         {
           "name": "HTML5",
-          "level": "80%"
+          "level": ""
         },
         {
-          "name": "VueJs",
-          "level": "50%"
+          "name": "NodeJs",
+          "level": ""
         },
         {
           "name": "MongoDB",
@@ -87,33 +89,45 @@
       "projects": [
         {
           "title": "Movies App",
-          "category": "My Travel Blog for my post-university travels",
-          "image": "",
-          "url": ""
+          "category": "A full stack streaming app. ",
+          "skills": ["PHP", "VueJs", "MySQL", "Javascript"],
+          "image": "project.jpg",
+          "url": "www.google.ca"
         },
         {
           "title": "Chat App",
           "category": "A live chat app for foodies.",
-          "image": "",
-          "url": ""
+          "skills": ["ReactJs", "SocketIO", "Javascript"],
+          "image": "project.jpg",
+          "url": "www.google.ca"
         },
         {
           "title": "Flappy Bird Clone Game",
-          "category": "Fly the 'spyderman' as far as you can!",
-          "image": "",
-          "url": ""
+          "skills": ["Python", "Pygame"],
+          "category": "A clone game - Fly the 'spyderman' as far as you can!",
+          "image": "project.jpg",
+          "url": "www.google.ca"
         },
         {
           "title": "Operating System",
-          "category": "A simplified os kernal ",
-          "image": "",
-          "url": ""
+          "skills": ["C"],
+          "category": "A simplified os kernal",
+          "image": "project.jpg",
+          "url": "www.google.ca"
         },
         {
-          "title": "Smirkspace",
-          "category": "(MVP Only) A React and Meteor based chat University project.",
-          "image": "smirkspace.jpg",
-          "url": "http://www.smirkspace.com"
+          "title": " Ludum Dare Game Prediction Kaggle Challenge",
+          "skills": ["Python", "TensorFlow"],
+          "category": "Predicted with a categorization accuracy of 0.92+ that ranked top 50% among the class competition.",
+          "image": "project.jpg",
+          "url": "www.google.ca"
+        },
+        {
+          "title": "Covid-19 Prediction",
+          "skills": ["Python", "Spark"],
+          "category": "Fetched live-streaming data from tweets and websites.",
+          "image": "project.jpg",
+          "url": "www.google.ca"
         }
       ]
     }

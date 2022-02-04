@@ -3,10 +3,10 @@ import Experience from "../../components/Experience/Experience";
 import Projects from "../../components/Projects/Projects";
 
 const Resume = (props) => {
-  const { educationData, workData, projectsData } = props;
+  const { resumeData, projectsData } = props;
   return (
     <section id="resume">
-      <Experience educationData={ educationData } workData={ workData }/>
+      <Experience resumeData={ resumeData }/>
       <Projects projectsData={ projectsData }/>
     </section>
   )

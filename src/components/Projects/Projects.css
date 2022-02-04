@@ -235,7 +235,7 @@
   -------------------------------------------------------------------------- */
 @media only screen and (max-width: 480px) {
     .projects_item {
-        width: 11em;
+        width: 12em;
     }
 
     .projects_item__overlay___wrapper h5 {

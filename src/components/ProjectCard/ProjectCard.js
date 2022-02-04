@@ -3,7 +3,7 @@ const ProjectCard = (props) => {
   return (
     <div className="projects_item">
       <a href={projectData.url} title={projectData.title} target="_blank"  rel="noreferrer">
-        <img alt={projectData.title} src={`${process.env.PUBLIC_URL}/images/${projectData.image}`} />
+        <img alt={projectData.title} src={`${process.env.PUBLIC_URL}/images/profile_photo.jpg`} />
         <div className="projects_item__overlay___wrapper">
           <h5>{projectData.title}</h5>
           <p>{projectData.category}</p>

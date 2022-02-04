@@ -41,8 +41,8 @@
           "themetitle": "Education",
           "school": "University of Waterloo",
           "degree": "Bachelor of Computer Science, Data Science",
-          "graduated": "December 2021",
-          "description": "It is a hard but unforgettable and worthwhile journey for me where I learnt not only programming and mathematics knowledge but also critical thinking, logical minds, and stress-resistant ability. Shout out to DC, DP, MC, and every goose blocking my way to the campus🤛 ."
+          "graduated": "December 2020",
+          "description": "It is a hard but unforgettable and worthwhile journey for me where I learnt not only programming and mathematics knowledge but also critical thinking, logical minds, and stress-resistant ability. Shout out to DC, DP, MC, and Mr & Mrs Goose blocking my way to the campus🤛 ."
         }
       ],
       "work": [
@@ -92,42 +92,42 @@
           "category": "A full stack streaming app. ",
           "skills": ["PHP", "VueJs", "MySQL", "Javascript"],
           "image": "project.jpg",
-          "url": "www.google.ca"
+          "url": "https://google.ca"
         },
         {
           "title": "Chat App",
           "category": "A live chat app for foodies.",
           "skills": ["ReactJs", "SocketIO", "Javascript"],
           "image": "project.jpg",
-          "url": "www.google.ca"
+          "url": "https://google.ca"
         },
         {
           "title": "Flappy Bird Clone Game",
           "skills": ["Python", "Pygame"],
           "category": "A clone game - Fly the 'spyderman' as far as you can!",
           "image": "project.jpg",
-          "url": "www.google.ca"
+          "url": "https://google.ca"
         },
         {
           "title": "Operating System",
           "skills": ["C"],
           "category": "A simplified os kernal",
           "image": "project.jpg",
-          "url": "www.google.ca"
+          "url": "https://google.ca"
         },
         {
           "title": "Ludum Dare Game Prediction Kaggle Challenge",
           "skills": ["Python", "TensorFlow"],
           "category": "Predicted with a categorization accuracy of 0.92+ that ranked top 50% among the class competition.",
           "image": "project.jpg",
-          "url": "www.google.ca"
+          "url": "https://google.ca"
         },
         {
           "title": "Covid-19 Prediction",
           "skills": ["Python", "Spark"],
           "category": "Fetched live-streaming data from tweets and websites.",
           "image": "project.jpg",
-          "url": "www.google.ca"
+          "url": "https://google.ca"
         }
       ]
     }

@@ -23,12 +23,3 @@
       padding-top: 1.2em !important;
    }
  }
-
-
- /* screenwidth less than 900px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
-   .social {
-      padding-top: 0.5em !important;
-   }
-}

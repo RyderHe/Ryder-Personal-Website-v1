@@ -48,9 +48,7 @@ function App() {
 
   if (fetchSuccess) {
     return (
-      // <Router>
       <div className="App">
-        {/* <Header mainData = { resumeData.main }/> */}
         <NavBar />
         <Routes>
           <Route 
@@ -69,7 +67,9 @@ function App() {
                   image={ resumeData.main.image }
                   resume={ resumeData.main.resumedownload }
                 />
-                <Footer/>
+                <Footer 
+                  socialNetworks={ resumeData.main.socialNetworks}
+                />
               </>
             }
           >
@@ -83,8 +83,7 @@ function App() {
                   projectsData={ resumeData.portfolio.projects}
                 />
                 <Footer 
-                  // educationData={ resumeData.education }
-                  // workData={ resumeData.work }
+                  socialNetworks={ resumeData.main.socialNetworks}
                 />
               </>
             }>

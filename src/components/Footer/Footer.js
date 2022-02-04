@@ -1,6 +1,8 @@
 import "./Footer.css";
+import SocialNetworksList from "../SocialNetworksList/SocialNetworksList";
 
-const Footer = () => {
+const Footer = (props) => {
+  const { socialNetworks } = props;
 
   return (
     <footer id="footer">
@@ -12,11 +14,12 @@ const Footer = () => {
         </div> */}
       {/* <div className="footer__content"> */}
 
-      <ul className="social">
+      {/* <ul className="social">
         <li key={1}><a href="https://www.linkedin.com/in/ruiying-he/"><i className="fa fa-linkedin"></i></a></li>
         <li key={1}><a href="https://www.linkedin.com/in/ruiying-he/"><i className="fa fa-linkedin"></i></a></li>
         <li key={1}><a href="https://www.linkedin.com/in/ruiying-he/"><i className="fa fa-linkedin"></i></a></li>
-      </ul>
+      </ul> */}
+      <SocialNetworksList socialNetworks={socialNetworks}/>
 
       <p>&copy; Copyright { new Date().getFullYear() } Ryder He</p>   
 

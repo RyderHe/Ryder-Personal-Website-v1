@@ -8,7 +8,7 @@ const Banner = (props) => {
       <div className="banner-text">
         <h1 className="responsive-headline">I&apos;m { name } .</h1>
         <h3>I&apos;m a <span>{ occupation }</span>. {description}</h3>
-        <hr />
+        {/* <hr /> */}
         <SocialNetworksList socialNetworks={socialNetworks}/>
       </div>
     </div>

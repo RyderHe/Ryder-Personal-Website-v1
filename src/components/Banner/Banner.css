@@ -46,12 +46,11 @@
    color: #fff;
 }
 
-.banner-text hr {
+/* .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
-   /* border-color: #474647; */
    border-color: rgba(150, 150, 150, .1);
-}
+} */
 
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */

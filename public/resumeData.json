@@ -106,21 +106,21 @@
           "skills": ["Python", "Pygame"],
           "category": "A clone game - Fly the 'spyderman' as far as you can!",
           "image": "project.jpg",
-          "url": "https://google.ca"
+          "url": "https://github.com/RyderHe/flappy-bird-clone-game/"
         },
         {
           "title": "Operating System",
           "skills": ["C"],
           "category": "A simplified os kernal",
           "image": "project.jpg",
-          "url": "https://google.ca"
+          "url": "https://github.com/RyderHe/os161-1.99"
         },
         {
           "title": "Ludum Dare Game Prediction Kaggle Challenge",
           "skills": ["Python", "TensorFlow"],
           "category": "Predicted with a categorization accuracy of 0.92+ that ranked top 50% among the class competition.",
           "image": "project.jpg",
-          "url": "https://google.ca"
+          "url": "https://github.com/RyderHe/Kaggle_predict_game_rankings"
         },
         {
           "title": "Covid-19 Prediction",

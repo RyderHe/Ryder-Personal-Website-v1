@@ -1,9 +1,7 @@
-
-
 import "./App.css";
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
-
+// import Spinner from "./components/Spinner/Spinner";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
@@ -94,7 +92,8 @@ function App() {
     );
 
   } 
-  return <h1>Loading</h1>
+  // return <Spinner />
+  return <h1>Loading ...</h1>
 }
 
 export default App;

@@ -5,8 +5,13 @@ const SocialNetworksList = (props) => {
   return (
     <ul className="social">
       {socialNetworks.map(function(social){
-        console.log(social);
-        return (<li key={social.name}><a href={social.url}><i className={social.className}></i></a></li>);
+        return (
+          <li key={social.name}>
+            <a href={social.url} target="_blank" rel="noopener noreferrer">
+              <i className={social.className}></i>
+            </a>
+          </li>
+        );
       }) }
     </ul>
   )

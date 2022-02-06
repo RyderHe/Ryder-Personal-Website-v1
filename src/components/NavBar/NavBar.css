@@ -51,7 +51,7 @@ nav a {
 
 /* active link */
 a.active {
-   color: #F06000;
+   color: #11ABB0;
 }
 
 @media only screen and (max-width: 1024px) {

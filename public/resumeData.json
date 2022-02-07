@@ -88,46 +88,39 @@
     "portfolio": {
       "projects": [
         {
-          "title": "Movies App",
-          "category": "A full stack streaming app. ",
-          "skills": ["PHP", "VueJs", "MySQL", "Javascript"],
-          "image": "project.jpg",
+          "title": "Streaming App",
+          "category": "A full stack streaming app for movies, tv shows & music. ",
+          "skills": ["VueJs", "MySQL", "NodeJs"],
+          "image": "profile_photo.jpg",
           "url": "https://google.ca"
         },
         {
           "title": "Chat App",
           "category": "A live chat app for foodies.",
-          "skills": ["ReactJs", "SocketIO", "Javascript"],
-          "image": "project.jpg",
-          "url": "https://google.ca"
+          "skills": ["ReactJs", "SocketIO", "NodeJs"],
+          "image": "chat_app.png",
+          "url": "http://foodies-chat.herokuapp.com/"
         },
         {
           "title": "Flappy Bird Clone Game",
           "skills": ["Python", "Pygame"],
           "category": "A clone game - Fly the 'spyderman' as far as you can!",
-          "image": "project.jpg",
+          "image": "flying_spyderman.png",
           "url": "https://github.com/RyderHe/flappy-bird-clone-game/"
         },
         {
           "title": "Operating System",
           "skills": ["C"],
           "category": "A simplified os kernal",
-          "image": "project.jpg",
+          "image": "os.jpg",
           "url": "https://github.com/RyderHe/os161-1.99"
         },
         {
           "title": "Ludum Dare Game Prediction Kaggle Challenge",
           "skills": ["Python", "TensorFlow"],
           "category": "Predicted with a categorization accuracy of 0.92+ that ranked top 50% among the class competition.",
-          "image": "project.jpg",
+          "image": "kaggle.png",
           "url": "https://github.com/RyderHe/Kaggle_predict_game_rankings"
-        },
-        {
-          "title": "Covid-19 Prediction",
-          "skills": ["Python", "Spark"],
-          "category": "Fetched live-streaming data from tweets and websites.",
-          "image": "project.jpg",
-          "url": "https://google.ca"
         }
       ]
     }

@@ -91,15 +91,15 @@
           "title": "Hara Clothing App",
           "category": "An e-commerce website. ",
           "skills": ["ReactJs", "FireBase"],
-          "image": "profile_photo.jpg",
+          "image": "hara_clothing.jpg",
           "url": "https://github.com/RyderHe/Hara-Clothing"
         },
         {
           "title": "Streaming App",
           "category": "A full stack streaming app for movies, tv shows & music. ",
           "skills": ["VueJs", "MySQL", "NodeJs"],
-          "image": "profile_photo.jpg",
-          "url": "https://google.ca"
+          "image": "streaming.jpg",
+          "url": "https://github.com/RyderHe/RK_Streaming"
         },
         {
           "title": "Chat App",

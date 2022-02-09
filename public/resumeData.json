@@ -99,14 +99,14 @@
           "category": "A full stack streaming app for movies, tv shows & music. ",
           "skills": ["VueJs", "MySQL", "NodeJs"],
           "image": "streaming.jpg",
-          "url": "hhttps://rk-streaming.herokuapp.com/#/"
+          "url": "https://rk-streaming.herokuapp.com/"
         },
         {
           "title": "Chat App",
           "category": "A live chat app for foodies.",
           "skills": ["ReactJs", "SocketIO", "NodeJs"],
           "image": "chat_app.png",
-          "url": "http://foodies-chat.herokuapp.com/"
+          "url": "http://foodies-chat.herokuapp.com"
         },
         {
           "title": "Flappy Bird Clone Game",

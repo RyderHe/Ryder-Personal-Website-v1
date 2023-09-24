@@ -1,16 +1,16 @@
 {
     "main": {
       "name": "Ryder He",
-      "occupation": "Software Developer",
+      "occupation": "Software Engineer",
       "description": "Welcome to my tech space!",
       "image": "profile_photo.jpg",
-      "bio": "I am currently working as a Web Developer at CIBC. I am passionate to code, learn, and improve. As an explorer, I look forward to future challenges and expanding my knowledge🚀.",
+      "bio": "I am currently working as a Software Development Engineer at Amazon. I am passionate to code, learn, and improve. As an explorer, I look forward to future challenges and expanding my knowledge🚀.",
       "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
       "email": "ryder.he.cs@gmail.com",
       "phone": "555-555-5555",
       "address": {
         "street": "",
-        "city": "Burlington",
+        "city": "Oakville",
         "state": "ON",
         "zip": ""
       },
@@ -19,7 +19,7 @@
       "socialNetworks": [
         {
           "name": "linkedin",
-          "url": "https://www.linkedin.com/in/ruiying-he/",
+          "url": "https://www.linkedin.com/in/ryder-he/",
           "className": "fa fa-linkedin"
         },
         {
@@ -50,8 +50,15 @@
           "themetitle": "Work",
           "company": "Canadian Imperial Bank of Commerce",
           "title": "Web Developer ",
-          "years": "June 2021 - Present",
+          "years": "June 2021 - June 2022",
           "description": "I maintained several internal applications responsible for the communication between employess and frontline managers and developed new features using Typescript, React, Node.js, and Python etc."
+        },
+        {
+          "themetitle": "Work",
+          "company": "Amazon",
+          "title": "Software Development Engineer",
+          "years": "Aug 2022 - Present",
+          "description": "Implemented new features for Amazon Live App in FireTV."
         }
       ],
       "skills": [

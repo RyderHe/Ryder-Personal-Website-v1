@@ -95,13 +95,6 @@
     "portfolio": {
       "projects": [
         {
-          "title": "Hara Clothing App",
-          "category": "An e-commerce website. ",
-          "skills": ["ReactJs", "FireBase"],
-          "image": "hara_clothing.jpg",
-          "url": "https://github.com/RyderHe/Hara-Clothing"
-        },
-        {
           "title": "Streaming App",
           "category": "A full stack streaming app for movies, tv shows & music. ",
           "skills": ["VueJs", "MySQL", "NodeJs"],

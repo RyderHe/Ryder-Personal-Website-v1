@@ -12,4 +12,4 @@ Deployed via Netlify.
 
 ### Live Site
 
-[🔗](ryderhe.ca)
+[⏩](https://ryderhe.ca/)
